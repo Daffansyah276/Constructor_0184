@@ -22,3 +22,14 @@ public:
     }
     friend class Petugas; 
 };
+
+class StatusPeminjaman{
+private:
+    bool dipinjam;
+
+public:
+    StatusPeminjaman(bool s){
+        dipinjam = s;
+    }
+    friend class Petugas; 
+};
