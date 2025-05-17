@@ -44,3 +44,13 @@ public:
     }
     friend class Admin;
 };
+
+int main(){
+    Judul j(" Arya ");
+    Penulis p(" Eupyhilia");
+    StatusPeminjaman s(" Dipinjam ");
+    Petugas petugas;
+    petugas.tampilData(j, p, s);
+    
+    return 0;
+}
