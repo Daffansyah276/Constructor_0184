@@ -10,4 +10,5 @@ public:
         this->judul = judul;
         return *this; // chain function
     }
+
 }
