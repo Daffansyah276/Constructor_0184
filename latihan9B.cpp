@@ -33,3 +33,14 @@ public:
     }
     friend class Petugas; 
 };
+
+class Petugas{
+public:
+    void tampilData(Judul j, Penulis p, StatusPeminjaman s){
+        cout << " Judul Buku : " << j.nama << endl;
+        cout << " Nama Penulis : " << p.namaPenulis << endl;
+        cout << " Dipinjam : " << " Dipinjam " << endl;
+        cin >> s.dipinjam;
+    }
+    friend class Admin;
+};
